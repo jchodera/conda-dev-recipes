@@ -17,7 +17,7 @@ requirements:
     - cmake     [not win]
     - jom       [win]
     - python
-    - fftw3f
+    - fftw3f ==3.3.3
     # swig is pinned to use omnia swig 3.0.7
     - swig ==3.0.7
     # on osx, need to install doxygen manually
